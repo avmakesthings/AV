@@ -1,0 +1,266 @@
+/*
+@media screen and (max-width: 740px){ 
+
+
+}
+
+@media (min-width: 1200px){
+
+}*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+
+	h1 {
+		font-size: 2em;
+		line-height: 2em;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	h3{
+		font-size: 2em;
+	}
+
+
+	h6{
+		font-size: 1.5em;
+	}	
+
+	p{
+		font-size: 1.5em;
+  		line-height: 1.5em;
+	}
+
+	#proj .container {
+	  padding-left: 10%;
+	  padding-right: 10%;
+ 	}
+
+ 	#myCarousel1 .carousel-inner {
+  		margin-left: 0px;
+  	}
+
+  	#myCarousel2 .carousel-inner {
+  		margin-left: 0px;
+	}
+	#brainwave {
+		padding-top: 30%;
+	}
+
+	#h{
+		padding-top: 30%;
+	}
+
+	#h h1 {
+  		font-size: 3em;
+  		line-height: 1.5em;  		
+  	}
+
+	#h h2 {
+  		font-size: 4em;
+  	}  
+
+  	#head h1 {
+  		font-size: 5em;
+  	}
+
+	#workproj .container {
+	  padding-left: 20%;
+	  padding-right: 20%;
+	} 
+
+	#proj .div-small{
+		height: auto;
+		overflow: hidden;
+	}
+
+	#proj .div-large{
+		height: auto;
+		overflow: hidden;
+	}
+
+	#proj .img-fill-vert {
+	  height: auto;
+	  width: 100%;
+	} 
+
+
+
+	#scoop h4 {
+		color: black;
+	}
+
+	#scoop h6 {
+		color: darkgray;
+	}
+
+
+	#proto h1 {
+	  padding-top: 100px;
+	  font-size: 2.5em;
+/*	  word-break: break-all;*/
+	  letter-spacing: 2px;
+	  color: white;
+	}
+
+
+
+	#proj .pad-text{
+		padding:0 10% 0 10%;
+	}
+
+	#myCarousel1 .carousel-inner{
+		margin-left: 0px;
+	}
+
+	#myCarousel2 .carousel-inner{
+		margin-left: 0px;
+	}
+
+
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) and (max-width: 992px) { 
+
+
+	#proj .container {
+	  padding-left: 10%;
+	  padding-right: 10%;
+ 	}
+
+	#proj .pad-text{
+		padding:0 10% 0 10%;
+	}
+
+	#proj .div-small{
+		height: auto;
+		overflow: hidden;
+	}
+
+	#proj .div-large{
+		height: auto;
+		overflow: hidden;
+	}	
+
+	#proj .img-fill-vert {
+	  height: auto;
+	  width: 100%;
+	}
+
+	#proto h1 {
+	  padding-top: 80px;
+
+	}
+	#myCarousel1 .carousel-inner{
+		margin-left: 0px;
+	}
+
+	#myCarousel2 .carousel-inner{
+		margin-left: 0px;
+	}
+
+ }
+
+
+
+@media screen and (min-width: 768px) {
+	#myCarousel .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+		margin-left: -15px;
+		font-size: 4em;
+	}
+
+	#myCarousel .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	  margin-right: -15px;
+	  font-size: 4em;
+	}
+
+	#myCarousel1 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	  margin-right: -90%;
+	  z-index: 90;
+	}
+
+	#myCarousel2 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	  margin-right: -90%;
+	  z-index:90;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+
+	#proj .container {
+	  padding-left: 15%;
+	  padding-right: 15%;
+	  margin-left: 0px;
+	  margin-right:0px;
+ 	}
+
+	#proj .pad-text{
+		padding:0 15% 0 15%;
+	}
+
+	#myCarousel1 .carousel-inner{
+		margin-left: 0px;
+	}
+
+	#myCarousel2 .carousel-inner{
+		margin-left: 0px;
+	}
+
+
+/*	#proj .div-small{
+		height: 500px;
+		overflow: hidden;
+	}
+*/
+/*	#proj .div-large{
+		height: auto;
+		overflow: hidden;
+	}	*/
+
+/*	#proj .img-fill-vert {
+	  height: auto;
+	  width: 100%;
+	}*/
+
+	#proj .img-height {
+	  height: 100%;
+	}
+
+
+	#proto h1 {
+	  padding-top: 80px;
+
+	}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+/*	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+		  margin-right: -90%;
+	}*/
+	
+}

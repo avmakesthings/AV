@@ -1,0 +1,14 @@
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+
+
+	#menuToggle {
+		left: -90%;
+	}
+
+	.menu-wrap {
+		left: -54%;
+	}
+
+
+}
